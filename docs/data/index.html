@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Engineering Opportunities Hub</title>
+<style>
+:root{--bg:#f6f7fb;--card:#fff;--tx:#1b1f2a;--mut:#667085;--bd:#e3e6ee;--ac:#5b4bdb;--ok:#12805c;--warn:#b54708}
+@media(prefers-color-scheme:dark){:root{--bg:#12141b;--card:#1b1e28;--tx:#e8eaf2;--mut:#98a2b3;--bd:#2c3140;--ac:#8b7dff;--ok:#4cd6a0;--warn:#fdb022}}
+*{box-sizing:border-box}body{margin:0;font:15px system-ui,sans-serif;background:var(--bg);color:var(--tx)}
+header{padding:24px 16px 8px;max-width:1100px;margin:auto}h1{margin:0;font-size:24px}
+.sub{color:var(--mut);font-size:13px}
+.bar{display:flex;flex-wrap:wrap;gap:8px;max-width:1100px;margin:12px auto;padding:0 16px}
+input,select{padding:9px 10px;border:1px solid var(--bd);border-radius:8px;background:var(--card);color:var(--tx);font:inherit}
+input[type=search]{flex:1;min-width:200px}
+label{display:flex;align-items:center;gap:5px;color:var(--mut)}
+main{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px;max-width:1100px;margin:auto;padding:8px 16px 40px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:6px}
+.card h3{margin:0;font-size:16px}.m{color:var(--mut);font-size:13px}
+.tag{display:inline-block;font-size:12px;padding:2px 8px;border-radius:99px;border:1px solid var(--bd);margin-right:4px}
+.yes{color:var(--ok)}.soon{color:var(--warn);font-weight:600}.exp{opacity:.55}
+a.btn{margin-top:auto;align-self:flex-start;background:var(--ac);color:#fff;text-decoration:none;padding:7px 12px;border-radius:8px;font-size:13px}
+</style></head><body>
+<header><h1>Engineering Opportunities Hub</h1><div class="sub" id="upd">Loading…</div></header>
+<div class="bar">
+<input type="search" id="q" placeholder="Search name, domain, organizer…">
+<select id="cat"><option value="">All categories</option></select>
+<select id="mode"><option value="">Any mode</option><option>Online</option><option>Offline</option><option>Hybrid</option></select>
+<label><input type="checkbox" id="fy"> First-year eligible</label>
+<label><input type="checkbox" id="free"> Free only</label>
+<label><input type="checkbox" id="exp"> Show expired</label>
+</div>
+<main id="list"></main>
+<script>
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const safe=u=>/^https?:\/\//i.test(u)?u:"#";
+let items=[];
+fetch("data/opportunities.json").then(r=>r.json()).then(d=>{
+  items=d.items;$("upd").textContent="Last updated: "+d.updated+" · "+items.length+" listings";
+  [...new Set(items.map(i=>i.category).filter(Boolean))].sort().forEach(c=>$("cat").add(new Option(c,c)));
+  render();
+}).catch(()=>$("upd").textContent="Could not load data.");
+["q","cat","mode","fy","free","exp"].forEach(id=>$(id).addEventListener("input",render));
+function render(){
+  const q=$("q").value.toLowerCase(), now=new Date();
+  const rows=items.filter(i=>
+    (!q||[i.name,i.domain,i.organizer,i.location].join(" ").toLowerCase().includes(q))&&
+    (!$("cat").value||i.category===$("cat").value)&&
+    (!$("mode").value||i.mode===$("mode").value)&&
+    (!$("fy").checked||i.first_year_eligible==="Yes")&&
+    (!$("free").checked||/^free/i.test(i.cost||""))&&
+    ($("exp").checked||!i.expired));
+  $("list").innerHTML=rows.map(i=>{
+    const d=i.deadline?new Date(i.deadline):null;
+    const days=d?Math.ceil((d-now)/864e5):null;
+    const soon=days!==null&&days>=0&&days<=3;
+    const dl=d?`<span class="${soon?"soon":""}">Deadline: ${esc(i.deadline.replace("T"," "))}${soon?" ⏰":""}</span>`:"Deadline: not listed";
+    return `<div class="card ${i.expired?"exp":""}">
+      <h3>${esc(i.name)}</h3>
+      <div><span class="tag">${esc(i.category)}</span><span class="tag">${esc(i.domain)}</span></div>
+      <div class="m">${esc(i.organizer)} · ${esc(i.mode)}${i.location&&i.location!=="Online"?" · "+esc(i.location):""}</div>
+      <div class="m ${i.first_year_eligible==="Yes"?"yes":""}">First-year: ${esc(i.first_year_eligible)}</div>
+      <div class="m">${dl}</div>
+      <div class="m">${esc(i.reward||"")} ${i.cost?"· "+esc(i.cost):""}</div>
+      <div class="m">${esc(i.verification||"Needs checking")} · checked ${esc(i.last_verified)}</div>
+      <a class="btn" href="${safe(i.link)}" target="_blank" rel="noopener">Open official page</a></div>`}).join("")
+    ||'<p class="m">No matching listings.</p>';
+}
+</script></body></html>
