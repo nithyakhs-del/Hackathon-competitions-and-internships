@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25 20:36",
+ "updated": "2026-10-26 04:01",
  "items": [
   {
    "id": "cf-2272",
@@ -18,7 +18,7 @@
    "verification": "Verified (official API)",
    "source": "codeforces",
    "expired": false,
-   "last_verified": "2026-10-25"
+   "last_verified": "2026-10-26"
   },
   {
    "id": "cf-2278",
@@ -37,7 +37,7 @@
    "verification": "Verified (official API)",
    "source": "codeforces",
    "expired": false,
-   "last_verified": "2026-10-25"
+   "last_verified": "2026-10-26"
   },
   {
    "id": "cf-2281",
@@ -56,7 +56,7 @@
    "verification": "Verified (official API)",
    "source": "codeforces",
    "expired": false,
-   "last_verified": "2026-10-25"
+   "last_verified": "2026-10-26"
   },
   {
    "id": "cf-2279",
@@ -75,7 +75,7 @@
    "verification": "Verified (official API)",
    "source": "codeforces",
    "expired": false,
-   "last_verified": "2026-10-25"
+   "last_verified": "2026-10-26"
   },
   {
    "id": "cf-2280",
@@ -94,7 +94,26 @@
    "verification": "Verified (official API)",
    "source": "codeforces",
    "expired": false,
-   "last_verified": "2026-10-25"
+   "last_verified": "2026-10-26"
+  },
+  {
+   "id": "cf-2282",
+   "name": "Kotlin Heroes: Episode 15",
+   "category": "Competition",
+   "organizer": "Codeforces",
+   "domain": "Competitive Programming",
+   "first_year_eligible": "Yes",
+   "mode": "Online",
+   "location": "Online",
+   "deadline": "2026-11-27T20:05",
+   "start_date": "2026-11-27T20:05",
+   "reward": "Rating / rank",
+   "cost": "Free",
+   "link": "https://codeforces.com/contests/2282",
+   "verification": "Verified (official API)",
+   "source": "codeforces",
+   "expired": false,
+   "last_verified": "2026-10-26"
   }
  ]
 }
