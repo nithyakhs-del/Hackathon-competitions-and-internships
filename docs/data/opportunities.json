@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28 22:22",
+ "updated": "2026-10-29 05:03",
  "items": [
   {
    "id": "cf-2278",
@@ -18,7 +18,7 @@
    "verification": "Verified (official API)",
    "source": "codeforces",
    "expired": false,
-   "last_verified": "2026-10-28"
+   "last_verified": "2026-10-29"
   },
   {
    "id": "cf-2283",
@@ -37,7 +37,7 @@
    "verification": "Verified (official API)",
    "source": "codeforces",
    "expired": false,
-   "last_verified": "2026-10-28"
+   "last_verified": "2026-10-29"
   },
   {
    "id": "cf-2281",
@@ -56,7 +56,7 @@
    "verification": "Verified (official API)",
    "source": "codeforces",
    "expired": false,
-   "last_verified": "2026-10-28"
+   "last_verified": "2026-10-29"
   },
   {
    "id": "cf-2284",
@@ -75,7 +75,7 @@
    "verification": "Verified (official API)",
    "source": "codeforces",
    "expired": false,
-   "last_verified": "2026-10-28"
+   "last_verified": "2026-10-29"
   },
   {
    "id": "cf-2279",
@@ -94,7 +94,7 @@
    "verification": "Verified (official API)",
    "source": "codeforces",
    "expired": false,
-   "last_verified": "2026-10-28"
+   "last_verified": "2026-10-29"
   },
   {
    "id": "cf-2280",
@@ -113,7 +113,7 @@
    "verification": "Verified (official API)",
    "source": "codeforces",
    "expired": false,
-   "last_verified": "2026-10-28"
+   "last_verified": "2026-10-29"
   },
   {
    "id": "cf-2285",
@@ -132,7 +132,7 @@
    "verification": "Verified (official API)",
    "source": "codeforces",
    "expired": false,
-   "last_verified": "2026-10-28"
+   "last_verified": "2026-10-29"
   },
   {
    "id": "cf-2282",
@@ -151,7 +151,7 @@
    "verification": "Verified (official API)",
    "source": "codeforces",
    "expired": false,
-   "last_verified": "2026-10-28"
+   "last_verified": "2026-10-29"
   }
  ]
 }
