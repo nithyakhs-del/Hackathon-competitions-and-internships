@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31 21:13",
+ "updated": "2026-11-01 05:15",
  "items": [
   {
    "id": "cf-2283",
@@ -18,7 +18,7 @@
    "verification": "Verified (official API)",
    "source": "codeforces",
    "expired": false,
-   "last_verified": "2026-10-31"
+   "last_verified": "2026-11-01"
   },
   {
    "id": "cf-2284",
@@ -37,7 +37,7 @@
    "verification": "Verified (official API)",
    "source": "codeforces",
    "expired": false,
-   "last_verified": "2026-10-31"
+   "last_verified": "2026-11-01"
   },
   {
    "id": "cf-2279",
@@ -56,7 +56,7 @@
    "verification": "Verified (official API)",
    "source": "codeforces",
    "expired": false,
-   "last_verified": "2026-10-31"
+   "last_verified": "2026-11-01"
   },
   {
    "id": "cf-2280",
@@ -75,7 +75,7 @@
    "verification": "Verified (official API)",
    "source": "codeforces",
    "expired": false,
-   "last_verified": "2026-10-31"
+   "last_verified": "2026-11-01"
   },
   {
    "id": "cf-2285",
@@ -94,7 +94,7 @@
    "verification": "Verified (official API)",
    "source": "codeforces",
    "expired": false,
-   "last_verified": "2026-10-31"
+   "last_verified": "2026-11-01"
   },
   {
    "id": "cf-2286",
@@ -105,15 +105,15 @@
    "first_year_eligible": "Yes",
    "mode": "Online",
    "location": "Online",
-   "deadline": "2026-11-20T20:00",
-   "start_date": "2026-11-20T20:00",
+   "deadline": "2026-12-01T20:00",
+   "start_date": "2026-12-01T20:00",
    "reward": "Rating / rank",
    "cost": "Free",
    "link": "https://codeforces.com/contests/2286",
    "verification": "Verified (official API)",
    "source": "codeforces",
    "expired": false,
-   "last_verified": "2026-10-31"
+   "last_verified": "2026-11-01"
   },
   {
    "id": "cf-2282",
@@ -124,15 +124,15 @@
    "first_year_eligible": "Yes",
    "mode": "Online",
    "location": "Online",
-   "deadline": "2026-11-27T20:05",
-   "start_date": "2026-11-27T20:05",
+   "deadline": "2026-12-08T20:05",
+   "start_date": "2026-12-08T20:05",
    "reward": "Rating / rank",
    "cost": "Free",
    "link": "https://codeforces.com/contests/2282",
    "verification": "Verified (official API)",
    "source": "codeforces",
    "expired": false,
-   "last_verified": "2026-10-31"
+   "last_verified": "2026-11-01"
   }
  ]
 }
