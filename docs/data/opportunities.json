@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07 05:21",
+ "updated": "2026-11-07 12:42",
  "items": [
   {
    "id": "cf-2279",
@@ -34,6 +34,25 @@
    "reward": "Rating / rank",
    "cost": "Free",
    "link": "https://codeforces.com/contests/2280",
+   "verification": "Verified (official API)",
+   "source": "codeforces",
+   "expired": false,
+   "last_verified": "2026-11-07"
+  },
+  {
+   "id": "cf-2290",
+   "name": "Codeforces Round 1134 (Div. 4)",
+   "category": "Competition",
+   "organizer": "Codeforces",
+   "domain": "Competitive Programming",
+   "first_year_eligible": "Yes",
+   "mode": "Online",
+   "location": "Online",
+   "deadline": "2026-11-12T20:05",
+   "start_date": "2026-11-12T20:05",
+   "reward": "Rating / rank",
+   "cost": "Free",
+   "link": "https://codeforces.com/contests/2290",
    "verification": "Verified (official API)",
    "source": "codeforces",
    "expired": false,
