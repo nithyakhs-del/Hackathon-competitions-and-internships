@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13 23:24",
+ "updated": "2026-11-14 05:41",
  "items": [
   {
    "id": "cf-2285",
@@ -18,7 +18,7 @@
    "verification": "Verified (official API)",
    "source": "codeforces",
    "expired": false,
-   "last_verified": "2026-11-13"
+   "last_verified": "2026-11-14"
   },
   {
    "id": "cf-2287",
@@ -37,7 +37,7 @@
    "verification": "Verified (official API)",
    "source": "codeforces",
    "expired": false,
-   "last_verified": "2026-11-13"
+   "last_verified": "2026-11-14"
   },
   {
    "id": "cf-2288",
@@ -56,7 +56,7 @@
    "verification": "Verified (official API)",
    "source": "codeforces",
    "expired": false,
-   "last_verified": "2026-11-13"
+   "last_verified": "2026-11-14"
   },
   {
    "id": "cf-2286",
@@ -75,7 +75,7 @@
    "verification": "Verified (official API)",
    "source": "codeforces",
    "expired": false,
-   "last_verified": "2026-11-13"
+   "last_verified": "2026-11-14"
   },
   {
    "id": "cf-2282",
@@ -94,7 +94,7 @@
    "verification": "Verified (official API)",
    "source": "codeforces",
    "expired": false,
-   "last_verified": "2026-11-13"
+   "last_verified": "2026-11-14"
   }
  ]
 }
