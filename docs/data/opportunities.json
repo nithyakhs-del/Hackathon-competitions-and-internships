@@ -1,25 +1,6 @@
 {
- "updated": "2026-11-15 13:42",
+ "updated": "2026-11-15 22:39",
  "items": [
-  {
-   "id": "cf-2285",
-   "name": "Codeforces Round 1135 (Div. 2)",
-   "category": "Competition",
-   "organizer": "Codeforces",
-   "domain": "Competitive Programming",
-   "first_year_eligible": "Yes",
-   "mode": "Online",
-   "location": "Online",
-   "deadline": "2026-11-15T20:05",
-   "start_date": "2026-11-15T20:05",
-   "reward": "Rating / rank",
-   "cost": "Free",
-   "link": "https://codeforces.com/contests/2285",
-   "verification": "Verified (official API)",
-   "source": "codeforces",
-   "expired": false,
-   "last_verified": "2026-11-15"
-  },
   {
    "id": "cf-2287",
    "name": "Codeforces Round (Div. 1)",
