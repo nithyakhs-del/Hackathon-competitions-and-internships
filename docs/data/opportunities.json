@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-18 00:46",
+ "updated": "2026-11-18 15:23",
  "items": [
   {
    "id": "cf-2287",
-   "name": "Codeforces Round (Div. 1)",
+   "name": "Codeforces Round 1136 (Div. 1)",
    "category": "Competition",
    "organizer": "Codeforces",
    "domain": "Competitive Programming",
@@ -22,7 +22,7 @@
   },
   {
    "id": "cf-2288",
-   "name": "Codeforces Round (Div. 2)",
+   "name": "Codeforces Round 1136 (Div. 2)",
    "category": "Competition",
    "organizer": "Codeforces",
    "domain": "Competitive Programming",
@@ -41,7 +41,7 @@
   },
   {
    "id": "cf-2289",
-   "name": "Codeforces Round (Div. 2)",
+   "name": "Codeforces Round 1137 (Div. 2)",
    "category": "Competition",
    "organizer": "Codeforces",
    "domain": "Competitive Programming",
