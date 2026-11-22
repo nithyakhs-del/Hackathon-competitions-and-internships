@@ -1,25 +1,6 @@
 {
- "updated": "2026-11-22 05:53",
+ "updated": "2026-11-22 14:20",
  "items": [
-  {
-   "id": "cf-2289",
-   "name": "Codeforces Round 1137 (Div. 2)",
-   "category": "Competition",
-   "organizer": "Codeforces",
-   "domain": "Competitive Programming",
-   "first_year_eligible": "Yes",
-   "mode": "Online",
-   "location": "Online",
-   "deadline": "2026-11-22T14:35",
-   "start_date": "2026-11-22T14:35",
-   "reward": "Rating / rank",
-   "cost": "Free",
-   "link": "https://codeforces.com/contests/2289",
-   "verification": "Verified (official API)",
-   "source": "codeforces",
-   "expired": false,
-   "last_verified": "2026-11-22"
-  },
   {
    "id": "cf-2286",
    "name": "Kotlin Heroes: Practice 15",
