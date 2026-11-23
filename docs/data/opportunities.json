@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22 23:26",
+ "updated": "2026-11-23 06:42",
  "items": [
   {
    "id": "cf-2286",
@@ -18,7 +18,7 @@
    "verification": "Verified (official API)",
    "source": "codeforces",
    "expired": false,
-   "last_verified": "2026-11-22"
+   "last_verified": "2026-11-23"
   },
   {
    "id": "cf-2291",
@@ -37,7 +37,7 @@
    "verification": "Verified (official API)",
    "source": "codeforces",
    "expired": false,
-   "last_verified": "2026-11-22"
+   "last_verified": "2026-11-23"
   },
   {
    "id": "cf-2282",
@@ -56,7 +56,7 @@
    "verification": "Verified (official API)",
    "source": "codeforces",
    "expired": false,
-   "last_verified": "2026-11-22"
+   "last_verified": "2026-11-23"
   }
  ]
 }
